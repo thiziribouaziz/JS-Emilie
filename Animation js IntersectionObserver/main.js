@@ -12,7 +12,7 @@ const observer = new IntersectionObserver((entries) => {
     
     
 })
-} ,{threshold:0.5} 
+} ,{threshold:0.5} // mettre un delai quand la page est visible a 50% elle change de couleur
 )
 
 observer.observe(document.getElementById("section1"))
